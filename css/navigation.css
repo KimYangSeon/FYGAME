@@ -1,0 +1,38 @@
+.navigation{
+  display: flex;
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(to right, #33ccff 0%, #ff99ff 100%);
+  overflow: hidden;
+}
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li{
+  float: left;
+}
+
+.navigation li a{
+  display: block;
+  padding: 30px;
+  color: white;
+  font-family: 'Scheherazade New', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 3px;
+  transition: background-color 0.5s;
+}
+
+.navigation li a:hover{
+  background-color: rgba(0, 0, 0,.3);
+}

@@ -1,0 +1,57 @@
+html,body{
+  margin:0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  padding-left: 20px;
+  align-items: center;
+  background: white;
+  font-family: 'Russo One', sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  cursor: default;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-top: 200px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.content img{
+  width: 800px;
+  margin: 50px;
+}
+
+.content_inner{
+  font-size: 50px;
+  font-family: 'Scheherazade New', serif;
+}
+
+.footer{
+  width: 100%;
+  padding: 20px 0px;
+  background-color: #3b3b3b;
+  color: darkgray;
+  font-family: 'Chakra Petch', sans-serif;
+  text-align:  center;
+}
+
+@media only screen and (max-width: 980px){
+  .content{
+    padding-top: 500px;
+  }
+
+  .content img{
+    width: 600px;
+  }
+}

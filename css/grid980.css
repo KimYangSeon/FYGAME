@@ -1,0 +1,15 @@
+@media only screen and (max-width: 980px){
+  .content_grid{
+    padding-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  .content_title{
+    padding-top: 500px;
+    text-align: center;
+  }
+
+  .game_name{
+    font-size: 15px;
+  }

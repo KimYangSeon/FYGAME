@@ -1,0 +1,12 @@
+@media only screen and (max-width: 980px){
+  .navigation{
+    height: auto;
+  }
+  .navigation ul li{
+    float: none;
+  }
+  .navigation li a{
+    width: 980px;
+    padding: 5px;
+  }
+}
